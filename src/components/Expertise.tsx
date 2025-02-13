@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "MERN"
@@ -49,7 +50,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
+                <FontAwesomeIcon icon={faReact} size="3x" />
                     <h3>Front-End Development</h3>
                     <p>
                     Once the front-end application is built, I optimize performance, ensure responsiveness, and enhance user experience. I streamline development with UI testing, state management, and automated deployment, ensuring a smooth and efficient Go-Live.</p>
@@ -62,7 +63,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                <FontAwesomeIcon icon={faCode} size="3x" />
                     <h3>Backend Development</h3>
                     <p>
                     Once the backend is built, I ensure scalability, security, and performance optimization. I integrate API testing, database management, and authentication, while streamlining deployment with CI/CD pipelines and automated workflows for a smooth Go-Live.</p>
